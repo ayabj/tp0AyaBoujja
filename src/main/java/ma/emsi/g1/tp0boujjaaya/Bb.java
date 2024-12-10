@@ -1,6 +1,7 @@
 package ma.emsi.g1.tp0boujjaaya;
 
 
+
 import jakarta.faces.application.FacesMessage;
 import jakarta.faces.context.FacesContext;
 import jakarta.faces.model.SelectItem;
@@ -177,5 +178,3 @@ public class Bb implements Serializable {
         return listeSystemRoles;
     }
 }
-
-
