@@ -173,8 +173,8 @@ public class Bb implements Serializable {
                 are you tell them the average price of a meal.
                 """;
         listeSystemRoles.add(new SelectItem(role, "Guide touristique"));
-        //ceci présélectionne le premier rôle de la liste.
-                this.systemRole = (String) listeSystemRoles.getFirst().getValue();
+        //pour présélectionne le premier rôle de la liste.
+                this.systemRole = (String) listeSystemRoles.get(0).getValue();
         return listeSystemRoles;
     }
 }
